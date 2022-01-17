@@ -108,6 +108,12 @@ PODS:
   - PromisesObjC (1.2.12)
   - SideMenu (6.5.0)
   - SwiftyJSON (4.3.0)
+<<<<<<< HEAD
+=======
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+>>>>>>> 069a362 (inital commit)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
@@ -117,6 +123,10 @@ DEPENDENCIES:
   - libpng (~> 1.6)
   - SideMenu (~> 6.0)
   - SwiftyJSON (~> 4.0)
+<<<<<<< HEAD
+=======
+  - TwitterKit (~> 3.4.2)
+>>>>>>> 069a362 (inital commit)
 
 SPEC REPOS:
   trunk:
@@ -136,6 +146,8 @@ SPEC REPOS:
     - PromisesObjC
     - SideMenu
     - SwiftyJSON
+    - TwitterCore
+    - TwitterKit
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
@@ -154,7 +166,9 @@ SPEC CHECKSUMS:
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: ea4c5aa0531ffc953854f2bdaf2378706757fb5c
+PODFILE CHECKSUM: 92813af10f5350af4c33192fcc6da48ae414b31b
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.10.1
