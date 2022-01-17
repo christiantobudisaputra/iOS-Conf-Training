@@ -87,11 +87,11 @@ class ViewController: UIViewController, MenuControllerDelegate {
             logController.view.isHidden = true
             biometericController.view.isHidden = true
 
-
         case .log:
             sensitiveDataController.view.isHidden = true
             logController.view.isHidden = false
             biometericController.view.isHidden = true
+            
         case .biometric:
             sensitiveDataController.view.isHidden = true
             logController.view.isHidden = true
